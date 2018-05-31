@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.fjut.ywj.mapper.BlogMapper">
+    <!--<select id="getAccountByNameAndPassword" parameterType="edu.fjut.ywj.dao.Account"-->
+            <!--resultType="edu.fjut.ywj.dao.Account">-->
+      <!--SELECT * FROM account WHERE name=#{name} AND password=#{password}-->
+    <!--</select>-->
+   <!--<select id="findAccountByName" parameterType="String"-->
+           <!--resultType="edu.fjut.domain.Account">-->
+       <!--SELECT * FROM account WHERE username LIKE concat('%',#{value},'%')-->
+   <!--</select>-->
+    <!--<insert id="addAccount" parameterType="edu.fjut.domain.Account">-->
+        <!--INSERT INTO account(username,balance) VALUES(#{username},#{balance})-->
+    <!--</insert>-->
+    <!--<select id="findAll" resultType="edu.fjut.domain.Account">-->
+        <!--SELECT * FROM account-->
+    <!--</select>-->
+    <insert id="addBlog" parameterType="edu.fjut.ywj.dao.Blog">
+        INSERT INTO Blog(title,mainText,time,accountId,browseCount) VALUE(#{title},#{mainText},#{time},#{accountId},#{browseCount})
+    </insert>
+
+
+    <select id="selectBlogAll" resultType="edu.fjut.ywj.dao.Blog">
+        SELECT * FROM blog ORDER BY time DESC
+    </select>
+
+    <select id="selectBlogById" parameterType="Integer" resultType="edu.fjut.ywj.dao.Blog">
+        SELECt * FROM blog WHERE id=#{id}
+    </select>
+
+    <select id="selectBlogViewById" parameterType="Integer" resultType="edu.fjut.ywj.dao.BlogView">
+        SELECT blog.id,account.netName AS accountName,title,mainText,time,account.id AS accountId,browseCount FROM blog,account WHERE blog.id=#{id} AND account.id=blog.accountId
+    </select>
+</mapper>

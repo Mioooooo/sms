@@ -1,0 +1,33 @@
+[DEBUG][2018-05-10 16:28:32,799][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-05-10 16:28:32,988][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-05-10 16:28:32,988][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-05-10 16:28:32,988][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-05-10 16:28:32,988][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-05-10 16:28:33,127][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-05-10 16:28:34,489][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 771105389.
+[DEBUG][2018-05-10 16:28:34,490][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2df6226d]
+[DEBUG][2018-05-10 16:28:34,493][edu.fjut.ywj.mapper.AccountMapper.getAccountByNameAndPassword]==>  Preparing: SELECT * FROM account WHERE name=? AND password=? 
+[DEBUG][2018-05-10 16:28:34,557][edu.fjut.ywj.mapper.AccountMapper.getAccountByNameAndPassword]==> Parameters: ywj(String), ywj123(String)
+[DEBUG][2018-05-10 16:28:34,607][edu.fjut.ywj.mapper.AccountMapper.getAccountByNameAndPassword]<==      Total: 1
+[DEBUG][2018-05-10 16:32:04,688][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-05-10 16:32:04,874][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-05-10 16:32:04,874][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-05-10 16:32:04,874][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-05-10 16:32:04,874][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-05-10 16:32:04,989][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-05-10 16:32:06,105][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 771105389.
+[DEBUG][2018-05-10 16:32:06,106][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2df6226d]
+[DEBUG][2018-05-10 16:32:06,110][edu.fjut.ywj.mapper.AccountMapper.getAccountByNameAndPassword]==>  Preparing: SELECT * FROM account WHERE name=? AND password=? 
+[DEBUG][2018-05-10 16:32:06,227][edu.fjut.ywj.mapper.AccountMapper.getAccountByNameAndPassword]==> Parameters: ywj(String), ywj123(String)
+[DEBUG][2018-05-10 16:32:06,471][edu.fjut.ywj.mapper.AccountMapper.getAccountByNameAndPassword]<==      Total: 1
+[DEBUG][2018-05-10 16:33:00,721][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+[DEBUG][2018-05-10 16:33:00,900][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-05-10 16:33:00,900][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-05-10 16:33:00,901][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-05-10 16:33:00,901][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-05-10 16:33:01,032][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-05-10 16:33:02,187][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 771105389.
+[DEBUG][2018-05-10 16:33:02,188][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2df6226d]
+[DEBUG][2018-05-10 16:33:02,194][edu.fjut.ywj.mapper.AccountMapper.getAccountByNameAndPassword]==>  Preparing: SELECT * FROM account WHERE name=? AND password=? 
+[DEBUG][2018-05-10 16:33:02,352][edu.fjut.ywj.mapper.AccountMapper.getAccountByNameAndPassword]==> Parameters: ywj(String), ywj123(String)
+[DEBUG][2018-05-10 16:33:02,432][edu.fjut.ywj.mapper.AccountMapper.getAccountByNameAndPassword]<==      Total: 1
